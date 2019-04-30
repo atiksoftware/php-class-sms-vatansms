@@ -1,0 +1,18 @@
+{
+    "name": "mansur/php-class-sms-vatansms",
+    "description": "VatanSMS PHP library. Its only XML for now",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Atiksoftware Corporation",
+            "email": "atiksoftware@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Atiksoftware\\SMS\\" : "src"
+		}
+	}
+}
