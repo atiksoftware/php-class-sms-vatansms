@@ -10,14 +10,16 @@
 		private $_username = "";
 		private $_password = "";
 		private $_title = "";
-		private $_smsType = "Normal";
+		private $_smsType = "Turkce";
 
 		private $_smsPool = [];
 
 
 
 		function __construct($customerNo = "", $username = "", $password = ""){
-
+			$this->setCustomerNo($customerNo);
+			$this->setUsername($username);
+			$this->setPassword($password);
 		}
 
 		function setCustomerNo($e){
@@ -148,7 +150,7 @@
 			curl_setopt($ch, CURLOPT_TIMEOUT, 30);
 			$response = curl_exec($ch);
 			curl_close($ch);
-echo $response;
+			$this->clear();
 			return $this;
 		}
 
