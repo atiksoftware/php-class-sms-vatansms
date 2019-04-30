@@ -1,5 +1,5 @@
 {
-    "name": "mansur/php-class-sms-vatansms",
+    "name": "atiksoftware/php-class-sms-vatansms",
     "description": "VatanSMS PHP library. Its only XML for now",
     "type": "library",
     "license": "MIT",
